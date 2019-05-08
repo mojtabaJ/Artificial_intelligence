@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="546.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.BoardGame">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="99.0" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="37.0" prefWidth="233.0" text="8-Puzzle Game" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="a7" alignment="CENTER" layoutX="28.0" layoutY="408.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a8" alignment="CENTER" layoutX="173.0" layoutY="408.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a9" alignment="CENTER" layoutX="313.0" layoutY="408.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a4" alignment="CENTER" layoutX="28.0" layoutY="293.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a5" alignment="CENTER" layoutX="173.0" layoutY="293.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a6" alignment="CENTER" layoutX="313.0" layoutY="293.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a1" alignment="CENTER" layoutX="28.0" layoutY="177.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a2" alignment="CENTER" layoutX="173.0" layoutY="177.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label fx:id="a3" alignment="CENTER" layoutX="313.0" layoutY="177.0" prefHeight="96.0" prefWidth="103.0" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+         <font>
+            <Font size="76.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label layoutX="9.0" layoutY="516.0" prefHeight="16.0" prefWidth="396.0" text="Mojtaba Jalambadani" />
+      <Label fx:id="step" alignment="CENTER" layoutX="29.0" layoutY="136.0" prefHeight="28.0" prefWidth="387.0" text="مرحله: 196 ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" layoutX="138.0" layoutY="89.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="169.0" text="شروع">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="init" alignment="CENTER" layoutX="137.0" layoutY="51.0" promptText="حالت شروع را وارد کنید" />
+   </children>
+</AnchorPane>
